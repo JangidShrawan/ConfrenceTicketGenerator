@@ -1,0 +1,113 @@
+.container{
+    width:79%;
+    margin: 35px 0;
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items:center;
+}
+
+h1{
+    font-size:2.9rem;
+    font-weight:800;
+    line-height:1;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top:15px;
+}
+
+.gen-para{
+    width:55%;
+    line-height:1.4;
+    margin-bottom: 15px;
+}
+
+.ticket-container{
+    padding: 20px 15px;
+    width: 71%;
+    background: url('../../assets/images/pattern-ticket.svg') no-repeat center;
+    background-size: cover;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position:relative;
+}
+
+.side1{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:35px;
+}
+
+.first{
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.first img{
+    height: 35px;
+    width: auto;
+}
+
+.first p{
+    margin-left: 21%;
+    font-size: 14px;
+    color:hsl(252, 6%, 83%);
+}
+
+.second{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.second > img{
+    height: 70px;
+    width: 70px;
+    border-radius: 15%;
+}
+
+.second .user-detail{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.second h5{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second .user-detail img{
+    width: 18px;
+    height: 18px;
+}
+
+.second .user-detail-para{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    color:hsl(252, 6%, 83%);
+}
+
+.rotate-para{
+    position: absolute;
+    top: 45%;
+    right:0;
+    transform: rotate(90deg);
+    color:hsl(245, 15%, 58%);
+}
+
+.gradient-text{
+    background: linear-gradient(to right,  hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    color:transparent;
+}

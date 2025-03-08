@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    display:flex;
+    flex-direction:column;  
+    gap: 15px;
+    margin-top: 30px;
+    width: 60%;
+}
+
+h1{
+    font-size:2.9rem;
+    font-weight:800;
+    line-height:1;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;  
+}
+
+.input-fields{
+    margin:0 150px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+    border:none;
+    color:hsl(252, 6%, 83%);
+}
+
+
+.input-field1{
+    margin-top:10px;
+}
+
+input{
+    width:100%;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius:7px;
+    border:1px solid hsl(245, 19%, 35%);
+    outline-offset:1px;
+    color:#fff;
+}
+
+input:focus, .drop-area:hover{
+    outline:1px solid hsl(244, 12.20%, 46.50%);
+}
+
+.drop-area{
+    padding: 7px 0;
+    gap:10px;
+    width:100%;
+    border: 2px dashed hsl(245, 19%, 35%);
+    border-radius:10px;
+    cursor:pointer;
+    background-color: transparent;
+    outline-offset:2px;
+}
+.drop-area p{
+    text-align: center;
+}
+
+.drop-area input{
+    display: none;
+}
+.upload-icon{
+    width:70px;
+    height:auto;
+}
+
+button[type="submit"]{
+    width:100%;
+    padding:10px 20px;
+    border-radius:5px;
+    background-color:hsl(7, 71%, 60%);
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color: #000;
+    font-weight:500;
+    font-size:1rem;
+    transition: all ease .3s;
+    outline-offset: 1px;
+}
+
+button[type="submit"]:hover{
+    border: 1px solid #000;
+    outline: 1px solid hsl(252, 6%, 83%);
+}
+
+
+.error-avatar{
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+    gap:4px;
+}
+
+.error-avatar img{
+    width:12px;
+}

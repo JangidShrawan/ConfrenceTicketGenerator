@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  display: flex;
+  place-content:center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('./assets/images/pattern-squiggly-line-bottom-desktop.svg'),
+  url('./assets/images/pattern-squiggly-line-top.svg'),
+   url('./assets/images/pattern-circle.svg'),
+   url('./assets/images/pattern-lines.svg'),
+   url('./assets/images/background-desktop.png');
+  background-position: left bottom, right 10%, 77% 70%,center, center;
+  background-size: auto, auto, auto, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  font-family:'Inconsolata', sans-serif;
+  padding:30px;
+  color:white;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
